@@ -2,7 +2,7 @@
 Defines the GPT-2 Tokenizer.
 Only supports decoding, i.e.: tokens (integers) -> strings
 This is all we need for unconditional generation.
-If we wanted to later prompt the model, we'd have to add decoding.
+If we wanted to later prompt the model, we'd have to add encoding.
 Which could be tricky in C because of the regex involved, to look into later.
 */
 
